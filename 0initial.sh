@@ -3,7 +3,7 @@
 HOSTNAME="awchlinux"
 
 # Essential packages
-pacstrap -K /mnt base base-devel linux linux-headers linux-firmware amd-ucode networkmanager grub vim fastfetch openssh git wget
+pacstrap -K /mnt base base-devel linux linux-headers linux-firmware amd-ucode networkmanager grub vim fastfetch openssh git wget ntfs-3g
 
 genfstab -pU >> /mnt/etc/fstab
 
